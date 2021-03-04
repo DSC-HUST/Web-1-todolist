@@ -21,20 +21,19 @@ export const Login = () => {
   return (
     <div className="parent">
       <div className="child1">
-        <h1>Sign in</h1>
-        <h2>Welcome to ToDoList</h2>
+        <h1 className="Sign_in_title">Sign in<p>Welcome to ToDoList</p></h1>
         <form className="login__form" onSubmit={(e) => handleSubmit(e)}>
           <input
             className="inputName"
             type="email"
-            placeholder="Email"
+            placeholder="    Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             className="inputPassword"
             type="password"
-            placeholder="Password"
+            placeholder="    Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
