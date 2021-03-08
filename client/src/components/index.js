@@ -4,6 +4,7 @@ import { Login } from "./login";
 import { useSelector } from "react-redux";
 import Navbar from "./navbar.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./footer";
 export function App() {
   return (
     // <div>
@@ -11,9 +12,10 @@ export function App() {
     //     <DemoForm/>
     // </div>
     <div>
-      <Navbar />
+      <Navbar className="nav_bar"/>
       {/*<Logout />*/}
       <Login />
+      <Footer />
     </div>
   );
 }

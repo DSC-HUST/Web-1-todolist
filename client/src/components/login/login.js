@@ -21,7 +21,7 @@ export const Login = () => {
   return (
     <div className="parent">
       <div className="child1">
-        <h1 className="Sign_in_title">Sign in<p>Welcome to ToDoList</p></h1>
+        <h1 className="Sign_in_title">Welcome to ToDoList</h1>
         <form className="login__form" onSubmit={(e) => handleSubmit(e)}>
           <input
             className="inputName"

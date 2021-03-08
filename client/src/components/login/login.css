@@ -1,26 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.blank {
+  width: 35%;
+}
 p {
   font-size: 50%;
 }
 .Sign_in_title {
   align-self: center;
 }
-::placeholder{
+::placeholder {
   /* ENTER EMAIL */
-width: 115px;
-height: 25px;
-left: 178px;
-top: 442px;
+  width: 115px;
+  height: 25px;
+  left: 178px;
+  top: 442px;
 
-font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-/* identical to box height */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
 
-/* Gray 4 */
-color: #BDBDBD;
-
+  /* Gray 4 */
+  color: #bdbdbd;
 }
 .inputName {
   /* Rectangle 2 */
@@ -72,10 +78,11 @@ color: #BDBDBD;
   border-radius: 20px;
 }
 .parent {
-  width: 100%;
-  /* border: 10px solid rgb(0, 0, 0); */
+  width: 90%;
+  margin: auto;
+  /* border: 10px solid rgb(0, 0, 0);  */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .login__form {
@@ -111,6 +118,16 @@ color: #BDBDBD;
   width: 70%;
 }
 @media screen and (max-width: 500px) {
+  .React_Foot {
+    width: 100%;
+  }
+  .blank {
+    width: 0%;
+  }
+  .footer {
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
   .parent {
     width: 100%;
     /* border: 10px solid rgb(0, 0, 0); */
@@ -188,7 +205,7 @@ color: #BDBDBD;
     justify-content: space-evenly;
     align-items: center;
   }
-  .Sign_in{
+  .Sign_in {
     font-size: 200%;
   }
   .login__form {
