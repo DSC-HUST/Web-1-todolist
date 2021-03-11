@@ -1,5 +1,4 @@
 import {Demo} from '../models';
-
 export const getAll = async () => {
     return await Demo.find({});
 }
